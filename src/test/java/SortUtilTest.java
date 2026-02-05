@@ -10,13 +10,13 @@ public class SortUtilTest {
         SortUtil util = new SortUtil();
 
         // Input array
-        int[] arr = {5, 2, 9, 1, 3};
+        int[] arr = {5, 2, 9, 1, 4, 6 , 3};
 
         // Call the sortArray method
         int[] sorted = util.sortArray(arr);
 
         // Expected array
-        int[] expected = {1, 2, 3, 5, 9};
+        int[] expected = {1, 2, 3, 5,6, 9};
 
         // Verify the result
         Assert.assertTrue(Arrays.equals(sorted, expected), "Array is not sorted correctly!");
