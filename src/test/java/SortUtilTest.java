@@ -16,7 +16,7 @@ public class SortUtilTest {
         int[] sorted = util.sortArray(arr);
 
         // Expected array
-        int[] expected = {1, 2, 3, 5, 9};
+        int[] expected = {1, 2, 3, 5,6, 9};
 
         // Verify the result
         Assert.assertTrue(Arrays.equals(sorted, expected), "Array is not sorted correctly!");
